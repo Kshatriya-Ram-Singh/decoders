@@ -1,0 +1,42 @@
+
+/* universal selector */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* tag selector */
+h1{
+    color: blueviolet;
+
+}
+h3{
+    color: green;
+}
+
+/* grouping selector */
+
+h3,h2{
+    color: brown;
+}
+
+/* id selector */
+
+#latest-trends {
+
+    color: rgb(20, 190, 220);
+
+}
+
+/* class selector */
+
+.section{
+    color: black;
+}
+
+/* attribute selector */
+ h3[class=trend-title]
+ {
+    color: chocolate;
+ }
+
