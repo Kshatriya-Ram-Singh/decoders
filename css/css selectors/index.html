@@ -2,55 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Culture Website</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>E-Commerce Demo</title>
+  <link rel="stylesheet" href="./main.css">
 </head>
 <body>
 
-  <!-- Header Section -->
-  <header id="main-header">
-    <h1 class="title">Global Culture Trends</h1>
-    <p class="subtitle">Stay updated with the evolving cultural movements around the world</p>
-    <hr>
-  </header>
+  <!-- Universal Selector demo: * -->
 
-  <!-- Latest Trends Section -->
-  <main id="content-area">
-    <section id="latest-trends" class="section">
-      <h2 class="section-title">Latest Trends in Culture - 2025</h2>
+  <div id="site-wrapper">
 
-      <div class="trend">
-        <h3 class="trend-title">1. Digital Storytelling</h3>
-        <p class="trend-description">People are using podcasts, YouTube, and VR to tell traditional stories in modern formats.</p>
-      </div>
+    <!-- Header Section -->
+    <header id="main-header" class="header">
+      <div class="logo">ShopZone</div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">Products</a></li>
+          <li><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <div class="trend">
-        <h3 class="trend-title">2. Cultural Fashion Fusion</h3>
-        <p class="trend-description">Blending traditional wear with modern fashion is becoming a statement of pride and creativity.</p>
-      </div>
-
-      <div class="trend">
-        <h3 class="trend-title">3. Language Revival Projects</h3>
-        <p class="trend-description">Efforts to bring back endangered languages are increasing through online courses and social media.</p>
-      </div>
-
-      <div class="trend">
-        <h3 class="trend-title">4. Global Music Collaboration</h3>
-        <p class="trend-description">Artists from different cultures are mixing sounds to create new genres and global hits.</p>
-      </div>
-
-      <div class="trend">
-        <h3 class="trend-title">5. Sustainable Cultural Events</h3>
-        <p class="trend-description">From Holi to Oktoberfest, events are now focusing on being eco-conscious and inclusive.</p>
+    <!-- Category Section -->
+    <section id="categories">
+      <h2>Categories</h2>
+      <div class="category-list">
+        <div class="category-card" data-type="fashion">Fashion</div>
+        <div class="category-card" data-type="electronics">Electronics</div>
+        <div class="category-card" data-type="home">Home & Kitchen</div>
       </div>
     </section>
-  </main>
 
-  <!-- Footer Section -->
-  <footer id="main-footer">
-    <hr>
-    <p class="footer-text">&copy; 2025 Global Culture Trends | Contact: culture@globalhub.com</p>
-  </footer>
+    <!-- Trending Products Section -->
+    <section id="trending">
+      <h2>Trending Products</h2>
+      <div class="product-grid">
+        <div class="product-card featured" id="p1">
+          <h3 class="product-title">Smartphone</h3>
+          <p class="price">$499</p>
+        </div>
+        <div class="product-card" id="p2">
+          <h3 class="product-title">Sneakers</h3>
+          <p class="price">$89</p>
+        </div>
+        <div class="product-card" id="p3">
+          <h3 class="product-title">Microwave Oven</h3>
+          <p class="price">$150</p>
+        </div>
+
+      </div>
+    <p class="note">More exciting products coming soon!</p>
+    </section>
+
+        <section id="trending">
+      <h2>Trending Products</h2>
+      <div class="product-grid">
+        <div class="product-card featured" id="p1">
+          <h3 class="product-title">Smartphone</h3>
+          <p class="price">$499</p>
+        </div>
+        <div class="product-card" id="p2">
+          <h3 class="product-title">Sneakers</h3>
+          <p class="price">$89</p>
+        </div>
+        <div class="product-card" id="p3">
+          <h3 class="product-title">Microwave Oven</h3>
+          <p class="price">$150</p>
+        </div>
+      </div>
+      <p class="note">More exciting products coming soon!</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="main-footer">
+      <p>&copy; 2025 ShopZone. All rights reserved.</p>
+      <p class="contact-email" data-info="support">support@shopzone.com</p>
+    </footer>
+
+  </div>
 
 </body>
 </html>
