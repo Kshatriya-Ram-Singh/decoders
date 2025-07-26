@@ -1,0 +1,60 @@
+.container {
+    margin: 100px auto;
+    border: 1px solid #000;
+    width: 80%;
+    height: 400px;
+    position: relative;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 8px;
+    animation: slide 4s infinite alternate ;
+    position: absolute;
+   
+   
+}
+/*
+@keyframes slide {
+    from {
+        left: 0px;
+    
+
+    }
+    to {
+        border-radius: 50%;
+        transform: rotate(270deg);
+        left: 890px;
+        background-color: black;
+
+    }
+}*/
+
+@keyframes slide {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    30% {
+        top: 0;
+        left: 890px;
+        background-color: black;
+    }
+    60% {
+        left: 890px;
+        top: 300px;
+        background-color: #3498db;
+    }
+    90% {
+        left: 0px;
+        top: 300px;
+        background-color: #e74c3c;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: #3498db;
+    }
+}
