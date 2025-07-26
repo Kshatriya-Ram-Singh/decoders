@@ -1,0 +1,915 @@
+.flexbox {
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position:sticky;
+
+}
+.flexbox .logo {
+    position: relative;
+    left: 20px;
+}
+
+.socialmedialinks svg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left :200px;
+    margin: 10px;
+    top: 30px;
+    
+}
+.search svg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left:220px;  
+    margin: 10px;
+    top: 30px;
+    
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
+.navlink ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    
+}
+.navlink ul a{
+    position: relative;
+    text-decoration: none;
+    margin: 12px;
+    top: 20px;
+    left: 150px;
+    font-size: 20px;
+    color: black;
+    
+}
+.flexbox button {
+    background-color: black;
+    color: white;
+    position: absolute;
+    right:80px;
+    top: 30px;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+
+}
+.lifestyle {
+    width: 80%;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    margin: 50px 120px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.lifestyle img {
+    width: 400px;
+    height: 90%;
+    margin: 10px;
+    border-radius: 10px;  
+}
+.lifestyle button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(246, 240, 240);
+    color: rgb(182, 41, 182);
+    border-radius: 10px;
+    border: none;
+    top: 30px;
+}
+
+.lifestyle h1 {
+    position: absolute;
+    top: 60px;
+    color: black;
+    font-size: 25px;
+    margin:20px ;
+    left: 420px;
+}
+.lifestyle p {
+    position: absolute;
+    top: 130px;
+    color: black;
+    font-size: 20px;
+    margin:20px ;
+    left: 420px;
+}
+.lifestyle .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 210px; 
+    left: 430px;
+
+}
+.lifestyle .author p{
+    position: absolute;
+    top : 210px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    left: 480px;
+
+}
+.lifestyle li{
+    position: absolute;
+    bottom: 35px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    right: 280px;
+}
+.maincontent .subcontent { 
+    display: flex;
+    margin: 0px 120px;
+    gap: 26px;
+   position: relative;
+
+}
+.technology {
+    width: 48%;
+    height: 200px;
+    background-color: white;
+    position: relative;  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.technology img {
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    margin: 10px ;
+    border-radius: 10px;
+
+}
+.technology button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(246, 240, 240);
+    color: rgb(50, 41, 182);
+    border-radius: 10px;
+    border: none;
+    top: 15px;
+    left: 210px;
+}
+.technology h1 {
+    position: absolute;
+    top: 50px;
+    color: black;
+    font-size: 17px;
+    margin:20px ;
+    left: 210px;
+}
+.technology  p{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    left: 210px;
+}
+.technology li{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    right: 20px;
+}
+
+.travel {
+    width: 48%;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.travel img {
+   width: 200px;
+    height: 180px;
+    position: absolute;
+    margin: 10px ;
+    border-radius: 10px;
+ 
+}
+.travel button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(246, 240, 240);
+    color: rgb(41, 182, 74);
+    border-radius: 10px;
+    border: none;
+    top: 15px;
+    left: 210px;
+}
+.travel h1 {
+    position: absolute;
+    top: 50px;
+    color: black;
+    font-size: 17px;
+    margin:20px ;
+    left: 210px;
+}
+.travel  p{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    left: 210px;
+}
+.travel li{
+    position: absolute;
+    bottom: 10px;
+    color: black;
+    font-size: 15px;
+    margin:20px ;
+    right: 20px;
+}
+.browse{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.browse h2 {
+    position: absolute;
+    left: 450px;
+    top: 30px;
+    font-size: 40px;
+
+}
+.browse p{ 
+     position: absolute;
+     margin: 20px;
+    left: 460px;
+    top: 100px;
+
+      
+}
+button:hover {
+    background-color: rgb(11, 11, 11);
+    color: white;
+    cursor: pointer;
+
+}
+.browse button {
+    position: relative;
+    background-color: rgb(247, 251, 252);
+    color: black;
+    border-radius: 15px;
+    margin: 10px;
+    top: 180px;
+    height: 40px;
+    width: 120px;   
+    border: solid 1px rgb(11, 11, 11);
+    
+}
+.extra {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+.extra1 {
+    position: relative;
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+   left: 120px;
+    top: 200px;
+
+}
+.extra1 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra1 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra1 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra1 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra1 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra1 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra1 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.extra2 {
+    position: relative;
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    left: 120px;
+    top: 200px;
+    
+}
+.extra2 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra2 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra2 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra2 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra2 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra2 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra2 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.extra3 {
+    position: relative;
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+   left: 120px;
+    top: 200px;
+  
+}
+.extra3 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra3 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra3 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra3 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra3 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra3 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra3 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.extra4 {
+    position: relative;
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+   left: 120px;
+    top: 200px;
+}
+.extra4 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra4 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra4 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra4 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra4 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra4 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra4 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.extra5 {
+     position: relative;
+    height: 380px;
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+   left: 120px;
+    top: 200px;
+}
+.extra5 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra5 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra5 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra5 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra5 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra5 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra5 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.extra6 {
+    position: relative;
+    height: 380px;
+    width: 320px;
+    background-color:white;
+    border-radius: 10px;
+   left: 120px;
+    top: 200px;
+}
+.extra6 img {
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+}
+.extra6 h1 {
+    position: absolute;
+    top: 200px;
+    color: black;
+    font-size: 20px;
+}
+.extra6 p {
+    position: absolute;
+    bottom: 60px;
+    color: black;
+    font-size: 15px;
+}
+.extra6 li {
+    position: absolute;
+    bottom: 22px;
+    color: black;
+    font-size: 13px;
+    left: 120px;
+}
+.extra6 .author img {
+    position: absolute;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    bottom: 20px; 
+
+}
+.extra6 .author p{
+    position: absolute;
+    color: black;
+    bottom: 10px;
+    font-size: 13px;
+    left:30px;
+
+}
+.extra6 button {
+    position: absolute;
+    margin: 20px;
+    background-color: rgb(211, 212, 229);
+    color: blue;
+    border-radius: 10px;
+    border: none;
+    bottom: 0px;
+    left: 210px;
+    height: 20px;
+    width: 70px;
+    font-size: 10px;
+}
+.browseall{
+    position: relative;
+
+}
+.browseall button {
+    position: absolute;
+    margin: 150px 530px;
+    top: 100px;
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    border: none;
+    border: solid 1px rgb(11, 11, 11);
+ 
+}
+.browseall h1 {
+    position: absolute;
+    left: 120px;
+    font-size: 30px;
+    margin: 100px 0px;
+    top: 250px;
+}
+.browseall p {
+    position: absolute;
+    left: 78%;
+    font-size: 20px;
+    margin: 100px 0px;
+    top: 260px;
+}
+.browseall hr {
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    margin: 400px 100px;
+}
+.authorlist {
+    position: relative;
+    display: flex;
+    
+
+}
+.authorlist .author1{
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 200px 100px;
+    background-color: rgb(247, 251, 252);
+    top:250px;
+    border: solid 1px black;
+
+
+}
+.authorlist .author1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+.authorlist .author1 h1 {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    color:black;
+    font-size: 20px;
+}   
+.authorlist .author1 p {
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    color: black;
+    font-size: 15px;
+}
+.authorlist .author2{
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(247, 251, 252);
+     margin: 200px 100px;
+     left: 345px;
+     top: 250px;
+      border: solid 1px black;
+}
+.authorlist .author2 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+.authorlist .author2 h1 {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    color: black;
+    font-size: 20px;
+}   
+.authorlist .author2 p {
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    color: black;
+    font-size: 15px;
+}
+.authorlist .author3{
+    position: absolute;
+    height: 120px;
+    width: 300px;
+    border-radius: 10px;
+     background-color: rgb(247, 251, 252);
+     margin: 200px 100px;
+     left: 690px;
+     top: 250px;
+      border: solid 1px black;
+}
+.authorlist .author3 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    margin: 10px;
+}
+
+.authorlist .author3 h1 {
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    color: black;
+    font-size: 20px;
+}   
+.authorlist .author3 p {
+    position: absolute;
+    left: 140px;
+    top: 40px;
+    color: black;
+    font-size: 15px;
+}
+.newsletter {
+    position: relative;
+    height: 140px;
+    width: 80%;
+    background-color: white;
+    top: 640px;
+    border-radius: 10px;
+    margin:0px 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.newsletter h1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 30px;
+}
+.newsletter p{
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    font-size: 20px;
+}
+.newsletter input {
+    position: absolute;
+    right:150px;
+    top: 80px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+.newsletter button {
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: black;
+    color: white;
+}
+.footer {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    top: 680px;
+    align-items: center;    
+    border-top: solid 1px black;
+    
+
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 400px;
+
+}
+.footer ul a {
+    position: relative;
+    text-decoration: none;
+    margin: 12px;
+    font-size: 20px;
+    color: rgb(89, 88, 88);
+
+}
+.footer h1{
+    position: absolute;
+    font-size: 15px;
+    right: 200px;
+    color: black;
+}
+.footer p {
+    position: absolute;
+    font-size: 15px;
+    left: 10px;
+    color: rgb(89, 88, 88)
+}
+.footer svg{
+    width: 17px;
+    height: 17px;
+    position: relative;
+     left:1050px;
+    margin: 10px;
+    
+}
+.footer button  {
+    position: relative;
+    left: 1050px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    background-color: black;
+    font-size: 15px; 
+    border: none;
+}
+.footer button svg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 0px;
+    top: 2px;
+    color: white;
+    margin: 0px 0px;
+}
