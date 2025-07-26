@@ -1,0 +1,35 @@
+.flag{
+    margin:200px;
+    position: relative;
+    justify-items: center;
+}
+.orange
+{    
+      height: 50px;
+    width: 200px;
+    background-color: orange;
+}
+.white
+
+{    
+      height: 50px;
+    width: 200px;
+    background-color: whitesmoke;
+}
+.green
+{  
+      height: 50px;
+    width: 200px;
+    background-color: green;
+}
+.ashokchakra{
+     height: 49px;
+    width: 49px;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: blue;
+    position: absolute;
+    left: 400px;
+    top: 49px;
+    
+}
