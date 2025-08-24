@@ -6,5 +6,5 @@ cuurent version is es7 2016
 implementation types
 3 types
 1. inline
-2. internal
+2. internal 
 3. external
