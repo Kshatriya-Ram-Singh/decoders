@@ -14,7 +14,7 @@ Variable:
  varibletype variablename=value(or)data
 
  var:
- redeclare,reinistalize
+ redeclare,reinistalize 
  let:
  it can be re instilalized but can not redeclare
  const:
